@@ -43,6 +43,10 @@ const CONFIG = {
 
   // devtool: 'source-map',
    devtool: false,
+   
+   optimization: {
+    minimize: false
+  },
 
 
   module: {
