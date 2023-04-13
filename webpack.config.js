@@ -41,7 +41,9 @@ const CONFIG = {
     extensions: ['.tsx', '.ts', '.js']
   },
 
-  devtool: 'source-map',
+  // devtool: 'source-map',
+   devtool: false,
+
 
   module: {
     rules: [
