@@ -66,7 +66,11 @@ const CONFIG = {
 
   // to support browser history api and remove the '#' sign
   devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    port: '8080',
+    allowedHosts: [
+      'gis.csar.dev'
+  ]
   },
 
   // Optional: Enables reading mapbox and dropbox client token from environment variable
