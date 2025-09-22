@@ -27,3 +27,10 @@ export MapboxAccessToken=<your_mapbox_token>
 ```sh
 npm start
 ```
+
+#### 4.sample
+
+```sh
+run
+```
+
